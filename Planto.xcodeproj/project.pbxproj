@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BEC3FBE2CC547330079710C /* PlantoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEC3FBD2CC547330079710C /* PlantoApp.swift */; };
+		3BEC3FC02CC547330079710C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEC3FBF2CC547330079710C /* ContentView.swift */; };
+		3BEC3FC22CC547340079710C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BEC3FC12CC547340079710C /* Assets.xcassets */; };
+		3BEC3FC52CC547340079710C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BEC3FC42CC547340079710C /* Preview Assets.xcassets */; };
+		3BEC3FCF2CC547350079710C /* PlantoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEC3FCE2CC547350079710C /* PlantoTests.swift */; };
+		3BEC3FD92CC547350079710C /* PlantoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEC3FD82CC547350079710C /* PlantoUITests.swift */; };
+		3BEC3FDB2CC547350079710C /* PlantoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEC3FDA2CC547350079710C /* PlantoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BEC3FCB2CC547350079710C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BEC3FB22CC547330079710C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BEC3FB92CC547330079710C;
+			remoteInfo = Planto;
+		};
+		3BEC3FD52CC547350079710C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BEC3FB22CC547330079710C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BEC3FB92CC547330079710C;
+			remoteInfo = Planto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BEC3FBA2CC547330079710C /* Planto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEC3FBD2CC547330079710C /* PlantoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantoApp.swift; sourceTree = "<group>"; };
+		3BEC3FBF2CC547330079710C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BEC3FC12CC547340079710C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BEC3FC42CC547340079710C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BEC3FCA2CC547350079710C /* PlantoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEC3FCE2CC547350079710C /* PlantoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantoTests.swift; sourceTree = "<group>"; };
+		3BEC3FD42CC547350079710C /* PlantoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEC3FD82CC547350079710C /* PlantoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantoUITests.swift; sourceTree = "<group>"; };
+		3BEC3FDA2CC547350079710C /* PlantoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BEC3FB72CC547330079710C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEC3FC72CC547350079710C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEC3FD12CC547350079710C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BEC3FB12CC547330079710C = {
+			isa = PBXGroup;
+			children = (
+				3BEC3FBC2CC547330079710C /* Planto */,
+				3BEC3FCD2CC547350079710C /* PlantoTests */,
+				3BEC3FD72CC547350079710C /* PlantoUITests */,
+				3BEC3FBB2CC547330079710C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BEC3FBB2CC547330079710C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BEC3FBA2CC547330079710C /* Planto.app */,
+				3BEC3FCA2CC547350079710C /* PlantoTests.xctest */,
+				3BEC3FD42CC547350079710C /* PlantoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BEC3FBC2CC547330079710C /* Planto */ = {
+			isa = PBXGroup;
+			children = (
+				3BEC3FBD2CC547330079710C /* PlantoApp.swift */,
+				3BEC3FBF2CC547330079710C /* ContentView.swift */,
+				3BEC3FC12CC547340079710C /* Assets.xcassets */,
+				3BEC3FC32CC547340079710C /* Preview Content */,
+			);
+			path = Planto;
+			sourceTree = "<group>";
+		};
+		3BEC3FC32CC547340079710C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3BEC3FC42CC547340079710C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BEC3FCD2CC547350079710C /* PlantoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BEC3FCE2CC547350079710C /* PlantoTests.swift */,
+			);
+			path = PlantoTests;
+			sourceTree = "<group>";
+		};
+		3BEC3FD72CC547350079710C /* PlantoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BEC3FD82CC547350079710C /* PlantoUITests.swift */,
+				3BEC3FDA2CC547350079710C /* PlantoUITestsLaunchTests.swift */,
+			);
+			path = PlantoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BEC3FB92CC547330079710C /* Planto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BEC3FDE2CC547350079710C /* Build configuration list for PBXNativeTarget "Planto" */;
+			buildPhases = (
+				3BEC3FB62CC547330079710C /* Sources */,
+				3BEC3FB72CC547330079710C /* Frameworks */,
+				3BEC3FB82CC547330079710C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Planto;
+			productName = Planto;
+			productReference = 3BEC3FBA2CC547330079710C /* Planto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BEC3FC92CC547350079710C /* PlantoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BEC3FE12CC547350079710C /* Build configuration list for PBXNativeTarget "PlantoTests" */;
+			buildPhases = (
+				3BEC3FC62CC547350079710C /* Sources */,
+				3BEC3FC72CC547350079710C /* Frameworks */,
+				3BEC3FC82CC547350079710C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BEC3FCC2CC547350079710C /* PBXTargetDependency */,
+			);
+			name = PlantoTests;
+			productName = PlantoTests;
+			productReference = 3BEC3FCA2CC547350079710C /* PlantoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BEC3FD32CC547350079710C /* PlantoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BEC3FE42CC547350079710C /* Build configuration list for PBXNativeTarget "PlantoUITests" */;
+			buildPhases = (
+				3BEC3FD02CC547350079710C /* Sources */,
+				3BEC3FD12CC547350079710C /* Frameworks */,
+				3BEC3FD22CC547350079710C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BEC3FD62CC547350079710C /* PBXTargetDependency */,
+			);
+			name = PlantoUITests;
+			productName = PlantoUITests;
+			productReference = 3BEC3FD42CC547350079710C /* PlantoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BEC3FB22CC547330079710C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3BEC3FB92CC547330079710C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3BEC3FC92CC547350079710C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3BEC3FB92CC547330079710C;
+					};
+					3BEC3FD32CC547350079710C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3BEC3FB92CC547330079710C;
+					};
+				};
+			};
+			buildConfigurationList = 3BEC3FB52CC547330079710C /* Build configuration list for PBXProject "Planto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BEC3FB12CC547330079710C;
+			productRefGroup = 3BEC3FBB2CC547330079710C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BEC3FB92CC547330079710C /* Planto */,
+				3BEC3FC92CC547350079710C /* PlantoTests */,
+				3BEC3FD32CC547350079710C /* PlantoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BEC3FB82CC547330079710C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEC3FC52CC547340079710C /* Preview Assets.xcassets in Resources */,
+				3BEC3FC22CC547340079710C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEC3FC82CC547350079710C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEC3FD22CC547350079710C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BEC3FB62CC547330079710C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEC3FC02CC547330079710C /* ContentView.swift in Sources */,
+				3BEC3FBE2CC547330079710C /* PlantoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEC3FC62CC547350079710C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEC3FCF2CC547350079710C /* PlantoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEC3FD02CC547350079710C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEC3FDB2CC547350079710C /* PlantoUITestsLaunchTests.swift in Sources */,
+				3BEC3FD92CC547350079710C /* PlantoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BEC3FCC2CC547350079710C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BEC3FB92CC547330079710C /* Planto */;
+			targetProxy = 3BEC3FCB2CC547350079710C /* PBXContainerItemProxy */;
+		};
+		3BEC3FD62CC547350079710C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BEC3FB92CC547330079710C /* Planto */;
+			targetProxy = 3BEC3FD52CC547350079710C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3BEC3FDC2CC547350079710C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BEC3FDD2CC547350079710C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BEC3FDF2CC547350079710C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Planto/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Raneem.Planto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BEC3FE02CC547350079710C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Planto/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Raneem.Planto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BEC3FE22CC547350079710C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Raneem.PlantoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Planto";
+			};
+			name = Debug;
+		};
+		3BEC3FE32CC547350079710C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Raneem.PlantoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Planto";
+			};
+			name = Release;
+		};
+		3BEC3FE52CC547350079710C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Raneem.PlantoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Planto;
+			};
+			name = Debug;
+		};
+		3BEC3FE62CC547350079710C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Raneem.PlantoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Planto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BEC3FB52CC547330079710C /* Build configuration list for PBXProject "Planto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEC3FDC2CC547350079710C /* Debug */,
+				3BEC3FDD2CC547350079710C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BEC3FDE2CC547350079710C /* Build configuration list for PBXNativeTarget "Planto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEC3FDF2CC547350079710C /* Debug */,
+				3BEC3FE02CC547350079710C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BEC3FE12CC547350079710C /* Build configuration list for PBXNativeTarget "PlantoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEC3FE22CC547350079710C /* Debug */,
+				3BEC3FE32CC547350079710C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BEC3FE42CC547350079710C /* Build configuration list for PBXNativeTarget "PlantoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEC3FE52CC547350079710C /* Debug */,
+				3BEC3FE62CC547350079710C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BEC3FB22CC547330079710C /* Project object */;
+}
